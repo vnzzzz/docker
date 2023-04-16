@@ -1,7 +1,7 @@
-# docker 管理用セット で管理されるPJのサンプル
+# docker 管理用セット で管理される PJ のサンプル
 
 ## 目的
 
-traefik と portainer で管理されるPJのサンプル
+traefik と portainer で管理される PJ のサンプル
 
-管理側の設定は[こちら](https://github.com/vnzzzz/docker-mgr)を参照
+管理側の設定は[こちら](https://github.com/vnzzzz/docker/tree/main/docker-mgr)を参照

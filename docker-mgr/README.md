@@ -10,7 +10,7 @@
 
 - traefik と portainer は 1 つ docker-compose.yml で準備する
 - 今後作成する docker プロジェクトは、それぞれ別のプロジェクトディレクトリの中で docker-compose.yml を作成し、その際に label で traefik の管理情報を付記する
-  - [こちら](https://github.com/vnzzzz/docker-mgr-pj)を参照
+  - [こちら](https://github.com/vnzzzz/docker/tree/main/docker-mgr-pj)を参照
 
 構成
 
@@ -95,10 +95,12 @@
 
    portainer の反映を確認する
 
-    ![picture 7](images/portainer-sample.png)  
+   ![picture 7](images/portainer-sample.png)
 
 ## 確認
+
 起動しているコンテナの情報は下記で確認できる。
+
 ```bash
 docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Status}}\t{{.Ports}}"
 ```
